@@ -16,7 +16,7 @@ namespace CSharp.DesignPatterns.Creational.AbstractFactory
             {
                 case 'A':
                 case 'a':
-                    factory = new AdultCuisineFactory();
+                    factory = new AdultCuisineFactory(); // aqui se crean el set de objetos
                     break;
 
                 case 'c':
