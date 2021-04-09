@@ -83,3 +83,5 @@ public override Sandwich CreateSandwich()
     return new BLT();            
 }
  ```
+
+Resumen: es un set de factorys, donde cada factory tiene distintas instancias de objetos, cada coleccion de instancias tienen mismo tipo y cantidad de objetos, pero cada objeto puede tener comportamiento diferente
